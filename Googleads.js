@@ -1,5 +1,5 @@
 function main() {
- var newSpreadSheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1Z9umO006_wKmD36DNFAQywXu2dRBCcv8ZbDdrBqc9us/edit#gid=0");
+ var newSpreadSheet = SpreadsheetApp.openByUrl("Add link to sheet here");
   
   var numOfSheets = newSpreadSheet.getSheets(); 
  if(numOfSheets.length>0){
